@@ -1,0 +1,34 @@
+---
+title: "assignment11-geo"
+author: "Qing Zhao"
+date: "`r format(Sys.time(), '%a %b %d %X %Y')`"
+output:
+  html_document:
+    toc: true
+    toc_depth: '4'
+    toc_float: true
+    number_sections: true
+    anchor_sections: true
+#   fig_width: 15                 设置生成的图片大小
+#   fig_height: 15                设置生成的图片大小
+#   code_download: true
+keywords:
+- geocomputation
+- sf
+- terra
+- spData
+- spDataLarge
+
+---
+
+
+
+
+```{r}
+
+install.packages("remotes")
+install.packages('geocompkg', repos = c('https://geocompr.r-universe.dev', 'https://cloud.r-project.org'), dependencies = TRUE, force = TRUE)
+
+
+
+```
